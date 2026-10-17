@@ -1,0 +1,250 @@
+{
+  "fox": {
+    "frame_size": [
+      48,
+      48
+    ],
+    "anchor": [
+      24,
+      44
+    ],
+    "scale": 0.09,
+    "alpha_threshold": 128,
+    "duration_ms": 240,
+    "regions": [
+      {
+        "id": "fox-0",
+        "rect": [
+          0,
+          0,
+          443,
+          443
+        ]
+      },
+      {
+        "id": "fox-1",
+        "rect": [
+          443,
+          0,
+          443,
+          443
+        ]
+      },
+      {
+        "id": "fox-2",
+        "rect": [
+          886,
+          0,
+          443,
+          443
+        ]
+      },
+      {
+        "id": "fox-3",
+        "rect": [
+          1329,
+          0,
+          443,
+          443
+        ]
+      }
+    ],
+    "palette_processing": "shared 48-color median-cut; no dithering; binary alpha retained"
+  },
+  "hedgehog": {
+    "frame_size": [
+      48,
+      48
+    ],
+    "anchor": [
+      24,
+      44
+    ],
+    "scale": 0.09,
+    "alpha_threshold": 128,
+    "duration_ms": 240,
+    "regions": [
+      {
+        "id": "hedgehog-0",
+        "rect": [
+          0,
+          443,
+          443,
+          443
+        ]
+      },
+      {
+        "id": "hedgehog-1",
+        "rect": [
+          443,
+          443,
+          443,
+          443
+        ]
+      },
+      {
+        "id": "hedgehog-2",
+        "rect": [
+          886,
+          443,
+          443,
+          443
+        ]
+      },
+      {
+        "id": "hedgehog-3",
+        "rect": [
+          1329,
+          443,
+          443,
+          443
+        ]
+      }
+    ],
+    "palette_processing": "shared 48-color median-cut; no dithering; binary alpha retained"
+  },
+  "tree": {
+    "frame_size": [
+      112,
+      128
+    ],
+    "anchor": [
+      56,
+      118
+    ],
+    "scale": 0.17,
+    "alpha_threshold": 128,
+    "regions": [
+      {
+        "id": "tree",
+        "rect": [
+          0,
+          0,
+          565,
+          650
+        ]
+      }
+    ],
+    "palette_processing": "shared 48-color median-cut; no dithering; binary alpha retained"
+  },
+  "tent": {
+    "frame_size": [
+      112,
+      96
+    ],
+    "anchor": [
+      56,
+      88
+    ],
+    "scale": 0.19,
+    "alpha_threshold": 128,
+    "regions": [
+      {
+        "id": "tent",
+        "rect": [
+          570,
+          160,
+          505,
+          490
+        ]
+      }
+    ],
+    "palette_processing": "shared 48-color median-cut; no dithering; binary alpha retained"
+  },
+  "fire": {
+    "frame_size": [
+      48,
+      56
+    ],
+    "anchor": [
+      24,
+      48
+    ],
+    "scale": 0.11,
+    "alpha_threshold": 128,
+    "regions": [
+      {
+        "id": "fire",
+        "rect": [
+          1100,
+          280,
+          410,
+          370
+        ]
+      }
+    ],
+    "palette_processing": "shared 48-color median-cut; no dithering; binary alpha retained"
+  },
+  "bush": {
+    "frame_size": [
+      56,
+      48
+    ],
+    "anchor": [
+      28,
+      40
+    ],
+    "scale": 0.105,
+    "alpha_threshold": 128,
+    "regions": [
+      {
+        "id": "bush",
+        "rect": [
+          30,
+          680,
+          440,
+          330
+        ]
+      }
+    ],
+    "palette_processing": "shared 48-color median-cut; no dithering; binary alpha retained"
+  },
+  "rock": {
+    "frame_size": [
+      64,
+      48
+    ],
+    "anchor": [
+      32,
+      40
+    ],
+    "scale": 0.1,
+    "alpha_threshold": 128,
+    "regions": [
+      {
+        "id": "rock",
+        "rect": [
+          530,
+          680,
+          530,
+          330
+        ]
+      }
+    ],
+    "palette_processing": "shared 48-color median-cut; no dithering; binary alpha retained"
+  },
+  "sign": {
+    "frame_size": [
+      48,
+      56
+    ],
+    "anchor": [
+      24,
+      48
+    ],
+    "scale": 0.12,
+    "alpha_threshold": 128,
+    "regions": [
+      {
+        "id": "sign",
+        "rect": [
+          1120,
+          650,
+          370,
+          370
+        ]
+      }
+    ],
+    "palette_processing": "shared 48-color median-cut; no dithering; binary alpha retained"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "fox",
+      "path": "assets/fox_spritesheet.png",
+      "source": "source/fox-v2.pxo",
+      "size": [
+        192,
+        48
+      ],
+      "frame_size": [
+        48,
+        48
+      ],
+      "alpha": "binary",
+      "max_colors": 48,
+      "animations": [
+        {
+          "name": "idle",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "durations_ms": [
+            250,
+            250,
+            250,
+            250
+          ],
+          "loop": true,
+          "max_bottom_span_px": 0
+        }
+      ]
+    },
+    {
+      "id": "hedgehog",
+      "path": "assets/hedgehog_spritesheet.png",
+      "source": "source/hedgehog-v2.pxo",
+      "size": [
+        192,
+        48
+      ],
+      "frame_size": [
+        48,
+        48
+      ],
+      "alpha": "binary",
+      "max_colors": 48,
+      "animations": [
+        {
+          "name": "idle",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "durations_ms": [
+            250,
+            250,
+            250,
+            250
+          ],
+          "loop": true,
+          "max_bottom_span_px": 0
+        }
+      ]
+    },
+    {
+      "id": "props",
+      "path": "assets/props-atlas.png",
+      "source": "source/props-v3.pxo",
+      "size": [
+        440,
+        128
+      ],
+      "alpha": "binary",
+      "max_colors": 48
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "name": "Moss & Mallow prototype",
+  "runtime_scale": 2,
+  "filter": "nearest",
+  "environment": {"path": "environment.png", "size": [256, 128], "tile_size": [16, 16]},
+  "farmer": {
+    "path": "farmer.png",
+    "size": [192, 256],
+    "frame_size": [32, 32],
+    "foot_anchor": [16, 29],
+    "direction_order": ["down", "up", "left", "right"],
+    "idle": {"first_row": 0, "frames_per_direction": 4, "fps": 3},
+    "walk": {"first_row": 4, "frames_per_direction": 6, "fps": 9},
+    "total_frames": 40
+  },
+  "crop": {
+    "atlas": "environment.png",
+    "origin": [0, 32],
+    "frame_size": [16, 32],
+    "stage_count": 4,
+    "watered_seconds_per_stage_demo": 2.5
+  },
+  "cost_tracking": {"image_api_calls": 0, "model_cost": null, "note": "No attributable per-task billing data available."}
+}

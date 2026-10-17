@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-16",
+  "workflow": "current skill, new sources",
+  "builtin_image_calls": 2,
+  "image_regenerations": 0,
+  "external_image_api_calls": 0,
+  "billed_cost": null,
+  "subscription_usage": null,
+  "exact_generation_model": null,
+  "palette_iterations": 2,
+  "visible_palette_union": 48,
+  "static_assets": "pass",
+  "pixelorama_reopened": [
+    "fox-v2.pxo",
+    "hedgehog-v2.pxo",
+    "props-v3.pxo"
+  ],
+  "static_import_correction": "Streaming static import shifted 529 visible pixels. Replaced with one-frame spritesheet import; zero visible differences from deterministic output.",
+  "visible_pixel_roundtrip": "pass",
+  "saved_source_rebuild": {
+    "fox": true,
+    "hedgehog": true,
+    "props": true
+  },
+  "godot": "4.7.2",
+  "godot_ai": "4.3.0",
+  "helper_live": true,
+  "game_script_errors": [],
+  "editor_script_errors": [],
+  "engine_events": [
+    "WASAPI: GetBufferSize error",
+    "WASAPI: Current output_device invalidated, closing output_device"
+  ],
+  "audio_status": "not_verified; operating-system audio output invalidated during final run",
+  "input_checks": {
+    "movement": {
+      "method": "MCP input_key A down/up",
+      "before_x": 307,
+      "after_x": 68.9975357055664
+    },
+    "gather": {
+      "method": "MCP input_key E down/up",
+      "before_berries": 0,
+      "after_berries": 5
+    },
+    "repeated_gather": {
+      "method": "Input.parse_input_event",
+      "berries": 5,
+      "interactions": 1
+    },
+    "too_far": {
+      "method": "position fixture + Input.parse_input_event",
+      "berries": 5,
+      "message": "Move closer to the berry bush."
+    },
+    "journal": {
+      "method": "MCP input_key Tab down/up",
+      "journal_open": true
+    },
+    "asset_view": {
+      "method": "MCP input_key F2 down/up",
+      "asset_mode": true
+    }
+  },
+  "runtime_frames_visited": {
+    "fox": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "hedgehog": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "initial_sandbox_launch": "failed; editor user data inaccessible",
+  "normal_user_launch": "connected and live",
+  "visual_status": "usable showcase prototype; commercial pixel-art quality unverified",
+  "not_verified": [
+    "four-direction walking",
+    "seamless terrain system",
+    "full map collision",
+    "human physical keyboard/focus",
+    "other operating systems"
+  ],
+  "screenshot_sha256": {
+    "game-current.png": "0e0a1d96474534a22637a0adbabdc8ea7c1fa330b3f341b9cddaf15aa4110f41",
+    "assets-current.png": "e5d9b74144b312b63894415b3aa2e54b74e9c5395d59d129788d469f35266b84"
+  },
+  "candidate_sha256": {
+    "characters-original.png": "255b2017c2c2cc9dd9ba59e2220eaaa52115a76933a7a35c6a693951d912a7d3",
+    "props-original.png": "b603c44db0d8b308330ab6235aa3a1efffde0098a128cf54858d07aac502e298"
+  }
+}

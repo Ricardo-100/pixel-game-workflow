@@ -1,0 +1,23 @@
+{
+  "frame_size": [
+    112,
+    96
+  ],
+  "anchor": [
+    56,
+    88
+  ],
+  "scale": 0.19,
+  "alpha_threshold": 128,
+  "regions": [
+    {
+      "id": "tent",
+      "rect": [
+        570,
+        160,
+        505,
+        490
+      ]
+    }
+  ]
+}

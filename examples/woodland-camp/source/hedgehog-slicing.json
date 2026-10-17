@@ -1,0 +1,51 @@
+{
+  "frame_size": [
+    48,
+    48
+  ],
+  "anchor": [
+    24,
+    44
+  ],
+  "scale": 0.09,
+  "alpha_threshold": 128,
+  "duration_ms": 240,
+  "regions": [
+    {
+      "id": "hedgehog-0",
+      "rect": [
+        0,
+        443,
+        443,
+        443
+      ]
+    },
+    {
+      "id": "hedgehog-1",
+      "rect": [
+        443,
+        443,
+        443,
+        443
+      ]
+    },
+    {
+      "id": "hedgehog-2",
+      "rect": [
+        886,
+        443,
+        443,
+        443
+      ]
+    },
+    {
+      "id": "hedgehog-3",
+      "rect": [
+        1329,
+        443,
+        443,
+        443
+      ]
+    }
+  ]
+}

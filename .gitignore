@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.godot/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+dist/
+build/
+local-reports/
+examples/*/processed/
+examples/*/addons/

@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-17",
+  "platform": "Windows",
+  "python": "3.12.14",
+  "pillow": "12.3.0",
+  "regression_suite": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 12,
+    "status": "pass"
+  },
+  "clean_directory_cli": {
+    "bootstrap": "pass",
+    "asset_audit": "review",
+    "scope": "static_only"
+  },
+  "archive_replay": "pass",
+  "new_editor_runtime": "Two demos headless import and start passed; see release-review-20261017.json",
+  "new_image_generation": "0 calls; existing art preserved",
+  "new_machine_install": "not_run",
+  "github_actions_remote": "not_run",
+  "note": "MCP input and Pixelorama results are historical (2026-10-16). Headless startup and archive replay do not prove installation or interactive play on another computer."
+}

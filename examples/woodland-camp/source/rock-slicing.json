@@ -1,0 +1,23 @@
+{
+  "frame_size": [
+    64,
+    48
+  ],
+  "anchor": [
+    32,
+    40
+  ],
+  "scale": 0.1,
+  "alpha_threshold": 128,
+  "regions": [
+    {
+      "id": "rock",
+      "rect": [
+        530,
+        680,
+        530,
+        330
+      ]
+    }
+  ]
+}

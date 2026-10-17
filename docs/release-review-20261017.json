@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-17",
+  "scope": "release_review",
+  "new_image_generation_calls": 0,
+  "mcp_input_retest": "not_run_no_connected_session",
+  "screenshots": "4 existing PNGs visually reviewed",
+  "rebuilt_visible_pixels_match_final_png": {
+    "fox_spritesheet.png": true,
+    "hedgehog_spritesheet.png": true,
+    "props-atlas.png": true
+  },
+  "static_audits": {
+    "woodland": {
+      "status": "pass",
+      "assets": 3
+    },
+    "farm": {
+      "status": "review",
+      "assets": 2
+    }
+  },
+  "headless_godot": {
+    "woodland": "import_and_start_pass_no_script_errors",
+    "farm": "import_and_start_pass_no_script_errors"
+  },
+  "status": "pass"
+}

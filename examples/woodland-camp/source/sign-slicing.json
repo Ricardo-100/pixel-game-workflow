@@ -1,0 +1,23 @@
+{
+  "frame_size": [
+    48,
+    56
+  ],
+  "anchor": [
+    24,
+    48
+  ],
+  "scale": 0.12,
+  "alpha_threshold": 128,
+  "regions": [
+    {
+      "id": "sign",
+      "rect": [
+        1120,
+        650,
+        370,
+        370
+      ]
+    }
+  ]
+}

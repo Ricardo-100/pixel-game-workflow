@@ -1,0 +1,23 @@
+{
+  "frame_size": [
+    48,
+    56
+  ],
+  "anchor": [
+    24,
+    48
+  ],
+  "scale": 0.11,
+  "alpha_threshold": 128,
+  "regions": [
+    {
+      "id": "fire",
+      "rect": [
+        1100,
+        280,
+        410,
+        370
+      ]
+    }
+  ]
+}

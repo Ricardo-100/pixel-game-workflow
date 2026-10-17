@@ -1,0 +1,23 @@
+{
+  "frame_size": [
+    56,
+    48
+  ],
+  "anchor": [
+    28,
+    40
+  ],
+  "scale": 0.105,
+  "alpha_threshold": 128,
+  "regions": [
+    {
+      "id": "bush",
+      "rect": [
+        30,
+        680,
+        440,
+        330
+      ]
+    }
+  ]
+}

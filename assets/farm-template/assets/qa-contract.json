@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "environment",
+      "path": "assets/environment.png",
+      "source": "source/environment.pxo",
+      "size": [
+        256,
+        128
+      ],
+      "frame_size": [
+        16,
+        16
+      ],
+      "alpha": "any"
+    },
+    {
+      "id": "farmer",
+      "path": "assets/farmer.png",
+      "source": "source/farmer.pxo",
+      "size": [
+        192,
+        256
+      ],
+      "frame_size": [
+        32,
+        32
+      ],
+      "alpha": "binary",
+      "animations": [
+        {
+          "name": "idle_down",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "durations_ms": [
+            333,
+            333,
+            333,
+            333
+          ],
+          "loop": true,
+          "max_bottom_span_px": 1
+        },
+        {
+          "name": "idle_up",
+          "frames": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "durations_ms": [
+            333,
+            333,
+            333,
+            333
+          ],
+          "loop": true,
+          "max_bottom_span_px": 1
+        },
+        {
+          "name": "idle_left",
+          "frames": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "durations_ms": [
+            333,
+            333,
+            333,
+            333
+          ],
+          "loop": true,
+          "max_bottom_span_px": 1
+        },
+        {
+          "name": "idle_right",
+          "frames": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "durations_ms": [
+            333,
+            333,
+            333,
+            333
+          ],
+          "loop": true,
+          "max_bottom_span_px": 1
+        },
+        {
+          "name": "walk_down",
+          "frames": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "durations_ms": [
+            111,
+            111,
+            111,
+            111,
+            111,
+            111
+          ],
+          "loop": true,
+          "max_bottom_span_px": 1
+        },
+        {
+          "name": "walk_up",
+          "frames": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "durations_ms": [
+            111,
+            111,
+            111,
+            111,
+            111,
+            111
+          ],
+          "loop": true,
+          "max_bottom_span_px": 1
+        },
+        {
+          "name": "walk_left",
+          "frames": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "durations_ms": [
+            111,
+            111,
+            111,
+            111,
+            111,
+            111
+          ],
+          "loop": true,
+          "max_bottom_span_px": 1
+        },
+        {
+          "name": "walk_right",
+          "frames": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "durations_ms": [
+            111,
+            111,
+            111,
+            111,
+            111,
+            111
+          ],
+          "loop": true,
+          "max_bottom_span_px": 1
+        }
+      ]
+    }
+  ]
+}

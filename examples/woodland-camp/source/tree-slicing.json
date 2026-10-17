@@ -1,0 +1,23 @@
+{
+  "frame_size": [
+    112,
+    128
+  ],
+  "anchor": [
+    56,
+    118
+  ],
+  "scale": 0.17,
+  "alpha_threshold": 128,
+  "regions": [
+    {
+      "id": "tree",
+      "rect": [
+        0,
+        0,
+        565,
+        650
+      ]
+    }
+  ]
+}
